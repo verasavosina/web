@@ -1,8 +1,14 @@
 <?php
 declare(strict_types=1);
 
-// Задание с анонимной функцией $swap
-$swap = function (&$a, &$b) {
+/**
+ * Анонимная функция, которая меняет местами аргументы, переданные по ссылке.
+ * 
+ * @param mixed &$a Первая переменная
+ * @param mixed &$b Вторая переменная
+ * @return void
+ */
+$swap = function (&$a, &$b): void {
 	$temp = $a;
 	$a = $b;
 	$b = $temp;
@@ -11,9 +17,8 @@ $swap = function (&$a, &$b) {
 $a = 5;
 $b = 8;
 $swap($a, $b);
-echo "После swap: a = $a, b = $b<br>"; // a = 8, b = 5
+echo "a = $a, b = $b<br>"; // a = 8, b = 5
 
-// Задание с функцией map
 /**
  * Применяет коллбэк к каждому элементу массива.
  * 
@@ -32,5 +37,5 @@ function map(array $arr, callable $callback): array
 
 $numbers = [1, 2, 3, 4, 5];
 $squared = map($numbers, fn($n) => $n ** 2);
-echo "Квадраты чисел: " . implode(', ', $squared) . "<br>"; // 1, 4, 9, 16, 25
+echo "Квадраты чисел: " . implode(', ', $squared) . "<br>";
 ?>
