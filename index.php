@@ -27,5 +27,13 @@
 		<li><a href="lab2/getmenu.php">Функция getMenu (getmenu.php)</a></li>
 		<li><a href="lab2/functions.php">Пользовательские функции (functions.php)</a></li>
 	</ul>
+		<h2>Лабораторная работа №3</h2>
+	<ul>
+		<li><a href="lab3/strings.php">Строки (strings.php)</a></li>
+		<li><a href="lab3/date.php">Дата и время (date.php)</a></li>
+		<li><a href="lab3/constants.php">Константы (constants.php)</a></li>
+		<li><a href="lab3/functions.php">Модули и функции (functions.php)</a></li>
+		<li><a href="site/index.php">Макет школьного сайта (site/index.php)</a></li>
+	</ul>
 </body>
 </html>
