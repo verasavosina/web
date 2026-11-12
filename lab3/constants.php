@@ -16,7 +16,10 @@ declare(strict_types=1);
 		echo "<h2>Категория: " . htmlspecialchars($category) . "</h2>";
 		echo "<ul>";
 		foreach ($constants as $name => $value) {
-			$displayValue = is_scalar($value) ? (string)$value : gettype($value);
+            if (is_float($value) && (is_nan($value) || is_infinite($value))) {
+                continue;
+}
+$displayValue = is_scalar($value) ? (string)$value : gettype($value);
 			echo "<li><strong>" . htmlspecialchars($name) . "</strong> = " . htmlspecialchars($displayValue) . "</li>";
 		}
 		echo "</ul>";
