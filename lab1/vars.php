@@ -14,8 +14,8 @@ $age = 20;
 	<h1>Переменные и вывод</h1>
 	<p>Меня зовут: <?= $name ?></p>
 	<p>Мне <?=$age ?> лет</p> 
-	<p>Тип $name: <?= gettype($name) ?></p>;
-	<p>Тип $age: <?= gettype($age) ?></p>;
+	<p>Тип $name: <?= gettype($name) ?></p>
+	<p>Тип $age: <?= gettype($age) ?></p>
 	<?php
 	unset($name, $age);
 	?>
