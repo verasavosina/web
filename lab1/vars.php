@@ -1,4 +1,5 @@
 <?php
+declare(strict_types=1);
 $name = 'Вера';
 $age = 20;
 ?>
@@ -11,11 +12,11 @@ $age = 20;
 </head>
 <body>
 	<h1>Переменные и вывод</h1>
+	<p>Меня зовут: <?= $name ?></p>
+	<p>Мне <?=$age ?> лет</p> 
+	<p>Тип $name: <?= gettype($name) ?></p>;
+	<p>Тип $age: <?= gettype($age) ?></p>;
 	<?php
-	echo "Меня зовут: $name<br>";
-	echo "Мне $age лет<br>";
-	echo "Тип \$name: " . gettype($name) . "<br>";
-	echo "Тип \$age: " . gettype($age) . "<br>";
 	unset($name, $age);
 	?>
 </body>
