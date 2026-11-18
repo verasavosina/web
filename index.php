@@ -33,5 +33,10 @@
 		<li><a href="lab3/functions.php">Модули и функции (functions.php)</a></li>
 		<li><a href="site/index.php">Макет школьного сайта (site/index.php)</a></li>
 	</ul>
+		<h2>Лабораторная работа №4</h2>
+	<ul>
+		<li><a href="site_lab4/index.php">Макет школьного сайта (GET/POST)</a></li>
+		<li><a href="lab4/calculator.php">Онлайн-калькулятор (calculator.php)</a></li>
+	</ul>
 </body>
 </html>
