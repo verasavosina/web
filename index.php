@@ -38,5 +38,12 @@
 		<li><a href="site_lab4/index.php">Макет школьного сайта (GET/POST)</a></li>
 		<li><a href="lab4/calculator.php">Онлайн-калькулятор (calculator.php)</a></li>
 	</ul>
+		<h2>Лабораторная работа №5</h2>
+	<ul>
+		<li><a href="lab5/file.php">Гостевая книга (file.php)</a></li>
+		<li><a href="lab5/upload.php">Загрузка файлов (upload.php)</a></li>
+		<li><a href="lab5/upload/index.php">Галерея (upload/index.php)</a></li>
+		<li><a href="site_lab4/index.php?id=contact">Форма обратной связи (site_lab4/contact.php)</a></li>
+	</ul>
 </body>
 </html>
